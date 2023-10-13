@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  height: 500px;
+  width: 500px;
+  margin: 50px;
+  border-radius: 50px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container div {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.container .child1 {
+  background-color: blueviolet;
+}
+.container .child2 {
+  background-color: chocolate;
+}
+.container .child3 {
+  background-color: violet;
+}
